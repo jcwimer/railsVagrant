@@ -18,14 +18,18 @@ apt-get install -y -qq \
 	curl \
 	git \
 	php7.1 \
-	php7.1-common
+	php7.1-common \
 	php7.1-curl \
 	php7.1-xml \
 	php7.1-zip \
 	php7.1-gd \
 	php7.1-mysql \
-	php7.1-mbstring 
-	apache2-utils 
+	php7.1-mbstring \
+	apache2-utils \
+	libcurl4-openssl-dev \
+	zlib1g-dev \
+	python-dev \
+	python-pip
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # Install docker and compose
